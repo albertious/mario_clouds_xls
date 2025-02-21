@@ -1,5 +1,5 @@
 # mario_clouds_xls
-- Google sheets settings only allow recalculation updates to happen every hour or every minute. So that version is slow as heck.
+**Google sheets settings only allow recalculation updates to happen every hour or every minute. So that version is slow as heck.**
 
 In the /img_processing folder i have included a py script that converts png files to csv files that states what colour each pixel/cell in the cloud graphic is. Conditional formatting in the spread sheet is used to change their colour according to the words in the cell. So cells containing 'white' are formatted as white text and white highlight. Empty cells as cyan for the sky.
 
