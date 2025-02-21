@@ -1,4 +1,4 @@
-![](https://github.com/albertious/mario_clouds_xls/blob/main/img_processing/single.png)# mario_clouds_xls ![](https://github.com/albertious/mario_clouds_xls/blob/main/img_processing/triple.png)
+# ![](https://github.com/albertious/mario_clouds_xls/blob/main/img_processing/single.png) mario_clouds_xls ![](https://github.com/albertious/mario_clouds_xls/blob/main/img_processing/triple.png)
 
 Originally inspired by Cory Arcangel's [Super Mario Clouds](https://en.wikipedia.org/wiki/Super_Mario_Clouds) but this repository upload was inspired by [this conversation between Arcangel and Dragan Espenschied](https://www.youtube.com/watch?v=xO8sBle8yrE).
 
