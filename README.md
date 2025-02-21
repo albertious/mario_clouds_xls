@@ -1,12 +1,18 @@
 # mario_clouds_xls
-## Google sheets settings only allow recalculation updates to happen every hour or every minute. So that version is slow as heck.
+Originally inspired by Cory Arcangel's [Super Mario Clouds](https://en.wikipedia.org/wiki/Super_Mario_Clouds) but this repository upload was inspired by [this conversation between Arcangel and Dragan Espenschied](https://www.youtube.com/watch?v=xO8sBle8yrE).
+
+I did this as an exercise while experiementing with the production of genrative landscapes in xls files - and using spreadsheets to produce terrain maps. Don't ask.
+
+## Google sheets settings only allow recalculation updates to happen every hour or every minute. 
+So that version is slow as heck!
+
+The OpenOffice xls version is broken, so i didn't upload that, but that doesn't have the same recalculation limits. When i fix that I will check it works on LibreOffice too. I'm never buying Microsoft Excel so you can do that bad stuff yourself.
 
 *In the /img_processing folder i have included a py script that converts png files to csv files that states what colour each pixel/cell in the cloud graphic is. Conditional formatting in the spread sheet is used to change their colour according to the words in the cell. So cells containing 'white' are formatted as white text and white highlight. Empty cells as cyan for the sky.*
 
 **The single cloud and triple length cloud each have their own sheet in the xls file. from this the main Matio_Clouds_xls sheet pulls in the other two sheets for 'graphics'  info.**
 
 **Marion_Clouds_xls cells (200x200) are each set to 10px x 10px**
-
 
 On the google spreadsheet version the main sky sells iterate this formula
 ```
