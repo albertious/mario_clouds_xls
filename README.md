@@ -1,7 +1,7 @@
 # mario_clouds_xls
 Originally inspired by Cory Arcangel's [Super Mario Clouds](https://en.wikipedia.org/wiki/Super_Mario_Clouds) but this repository upload was inspired by [this conversation between Arcangel and Dragan Espenschied](https://www.youtube.com/watch?v=xO8sBle8yrE).
 
-I did this as an exercise while experiementing with the production of genrative landscapes in xls files - and using spreadsheets to produce terrain maps. Don't ask.
+I did this as an exercise while experimenting with the production of genrative landscapes in xls files - and using spreadsheets to produce terrain maps. Don't ask. But I think Super Mario Clouds could function as a sort of 'Hello World' when testing low res or older formats. For instance, I am writing BASIC for the Acorn Electron (1983 home computer with 20 kilobytes of ram) and to learn how best to load and animate sprites, this simple clouds-sky-movement format is actually perfect to do a proof of concept, before committing to to tape cassette. :)
 
 ## Google sheets settings only allow recalculation updates to happen every hour or every minute. 
 So that version is slow as heck!
