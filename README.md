@@ -7,6 +7,7 @@ I did this as an exercise while experimenting with the production of genrative l
 ## Google sheets settings only allow recalculation updates to happen every hour or every minute. So this version is slow as heck!
 
 The OpenOffice xls version is broken, so i didn't upload that, but that doesn't have the same recalculation limits. When i fix that I will check it works on LibreOffice too. I'm never buying Microsoft Excel so you can do that bad stuff yourself.
+***Edit: After revisitng the OpenOffice and LibreOffice paths, I hit a wall: Openoffice doesnt allow for more than 3 conditional formatting rules, so only 3 out of the 4 colours could be set. Also niether have a timer to do recalculation of the spreadsheets (so that animation happens), which is probably why I ended up in Google Sheets in the first place. To do this recalculation in OpenOffice or LibreOffice, you would have to write a macro, which I feel makes the task of doing this in xls lose its purity a bit.***
 
 *In the /img_processing folder i have included a py script that converts png files to csv files that states what colour each pixel/cell in the cloud graphic is. Conditional formatting in the spread sheet is used to change their colour according to the words in the cell. So cells containing 'white' are formatted as white text and white highlight. Empty cells as cyan for the sky.*
 
